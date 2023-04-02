@@ -1,0 +1,131 @@
+/* **** NOTICE!: This CSS3 file is generated with SASS. Do NOT modify manually! **** */
+* {
+    box-sizing: border-box; }
+
+body {
+    font-family: Verdana,sans-serif;
+    font-size: 0.9em; }
+
+header, footer {
+    color: white;
+    background-color: #444444;
+    margin: 0px 2px;
+    padding: 8px;
+    width: 100%;
+    float: left; }
+header a, footer a {
+    color: lightgray; }
+
+header {
+    font-size: 1.7em;
+    font-weight: bold;
+    margin-bottom: 20px; }
+
+section, article {
+    margin: 4px;
+    padding: 4px;
+    background-color: white; }
+
+section {
+    border-bottom: 2px solid #444;
+    margin-bottom: 0px; }
+
+article {
+    margin-left: 2px; }
+article:nth-child(odd) {
+    background-color: whitesmoke; }
+article:nth-child(even) {
+    background-color: whitesmoke; }
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: left;
+    font-weight: bold; }
+
+h1 {
+    font-size: 19pt; }
+
+h2 {
+    font-size: 16pt; }
+
+.main {
+    width: 85%;
+    float: right; }
+
+figure {
+    max-width: 95%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px; }
+
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto; }
+
+figcaption {
+    border-top: 1px solid black;
+    padding: 10px 20px;
+    text-align: center;
+    font-style: italic; }
+
+nav li ul, nav li ul li ul {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background-color: #ccccee;
+    min-width: 200px;
+    height: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1; }
+
+nav {
+    width: 15%;
+    height: 100vh;
+    background-color: #ccccee;
+    position: fixed;
+    float: left; }
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    float: left;
+    height: 100%; }
+nav li {
+    position: relative;
+    color: black;
+    text-align: center;
+    text-decoration: none; }
+nav li a, nav .dropbtn {
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 8px 5px;
+    text-decoration: none; }
+nav .active {
+    background-color: #6666cc; }
+nav li a:hover, nav .dropdown:hover, nav .dropbtn:hover {
+    background-color: #6666cc;
+    color: lightgrey;
+    /*    opacity: 0.3;
+    		filter: alpha(opacity=30);*/ }
+nav .rootItem, nav .rootItem:hover {
+    background-color: #333399;
+    color: whitesmoke;
+    font-weight: bold; }
+nav li.dropdown > a::after {
+    content: '+';
+    float: right; }
+nav li:hover > ul {
+    display: block; }
+nav li ul li {
+    width: inherit;
+    text-align: center; }
+nav li ul li a {
+    position: relative;
+    display: block;
+    padding: 8px 10px;
+    text-decoration: none;
+    text-align: left; }
